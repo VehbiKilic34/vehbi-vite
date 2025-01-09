@@ -2,9 +2,7 @@ import JSConfetti from 'js-confetti'
 const jsConfetti = new JSConfetti()
 
 function throwConfetti() {
-  jsConfetti.addConfetti({
-    emojis: ['B', 'E', 'T', 'Ü', 'L',],
-  })
+  jsConfetti.addConfetti()
 }
 
 const confettiButton=document.getElementById("throw-confetti");
